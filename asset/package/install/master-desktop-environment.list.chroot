@@ -8,20 +8,29 @@
 
 
 ##
-## ## Package / Desktop Environment / Xfce
+## ## Package / Desktop Environment / Kde Plasma
 ##
 
-xfce4
-xfce4-goodies
 
-xfce4-power-manager
-xfce4-terminal
-mousepad
+#kde-baseapps
+#kde-full
+#kde-plasma-desktop
+kde-standard
 
-xarchiver
 
-pavucontrol
-pulseaudio
+#kwin-wayland
+kwin-x11
+kwin-addons
+#kwin-common
+#kwin-data
+
+
+konsole
+yakuake
+dolphin
+kate
+kwrite
+kdevelop
 
 
 
@@ -35,10 +44,15 @@ accountsservice
 asunder
 atril
 
-
+dconf-cli
 gnome-disk-utility
 gnome-keyring
 gnome-nettool
 gnome-system-tools
 
 remmina
+
+xarchiver
+
+pavucontrol
+pulseaudio
