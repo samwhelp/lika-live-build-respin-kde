@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+#set -e
 
 
 
@@ -161,9 +161,9 @@ util_dm_set () {
 	echo -n "I: ${default_display_manager_file_path} is set to: "
 	cat "${default_display_manager_file_path}"
 
-	echo
-	echo -n "I: debconf is set to: "
-	echo get shared/default-x-display-manager | debconf-communicate
+	#echo
+	#echo -n "I: debconf is set to: "
+	#echo get shared/default-x-display-manager | debconf-communicate
 
 
 	return 0
