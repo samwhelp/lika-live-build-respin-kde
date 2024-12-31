@@ -2,7 +2,7 @@
 
 # Home
 
-> lika-live-build-respin-kde
+> [lika-live-build-respin-kde](https://github.com/samwhelp/lika-live-build-respin-kde)
 
 
 
